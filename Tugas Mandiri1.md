@@ -1,5 +1,3 @@
-# Pemrograman-Berorientasi-Objek-PBO-
-Tugas Mandiri
 {
   "nama_klinik": "Klinik Informatika Sehat",
   "rekam_medis": [
