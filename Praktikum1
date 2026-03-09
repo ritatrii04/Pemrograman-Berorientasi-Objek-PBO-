@@ -1,0 +1,10 @@
+detak_jantung = [70, 110, 65, 120, 80, 140, 75]
+def analisa_kondisi(bpm):
+    if bpm > 100:
+        return "Peringatan: Takikardia(Detak Tinggi)"
+    else:
+        return "Kondisi: Normal"
+
+for data in detak_jantung:
+    status = analisa_kondisi (data)
+    print(f"data ke {1}: {data} bpm -> {status}")
